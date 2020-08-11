@@ -3,6 +3,7 @@ package top.xiaotian.springcloud.controller;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import top.xiaotian.springcloud.service.PaymentService;
 
@@ -37,6 +38,13 @@ public class PaymentController {
     @GetMapping("/payment/hystrix/timeout/{id}")
     public String paymentInfo_TimeOut(@PathVariable("id") Integer id) {
         String res = paymentService.paymentInfo_TimeOut(id);
+        return res;
+    }
+
+    //////////////////////
+    @RequestMapping("/payment/circuit/{id}")
+    public String paymentCircuitBreaker(@PathVariable("id") Integer id) {
+        String res = paymentService.paymentCircuitBreaker(id);
         return res;
     }
 }
