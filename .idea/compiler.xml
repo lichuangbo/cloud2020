@@ -12,6 +12,7 @@
         <module name="cloud-eureka-server8003" />
         <module name="cloud-eureka-server8004" />
         <module name="cloud-provider-payment8001" />
+        <module name="cloud-provider-payment8005" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
