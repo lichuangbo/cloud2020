@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
+        <module name="cloud-consumer-feign-hystrix-order8002" />
         <module name="cloud-consumer-order8002" />
         <module name="cloud-eureka-server8003" />
         <module name="cloud-eureka-server8004" />
+        <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8005" />
       </profile>
