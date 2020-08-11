@@ -2,7 +2,7 @@ package top.xiaotian.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @author lichuangbo
@@ -10,11 +10,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @created 2020/8/10
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class OrderMain8002 {
-
+@EnableEurekaServer
+public class EurekaMain8003 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderMain8002.class, args);
-        System.out.println("8002订单服务启动成功");
+        SpringApplication.run(EurekaMain8003.class, args);
+        System.out.println("8003Eureka Server端启动成功");
     }
 }
