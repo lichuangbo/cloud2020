@@ -19,6 +19,10 @@ spring:
           uri: lb://cloud-payment-service # \u5339\u914D\u540E\u63D0\u4F9B\u670D\u52A1\u7684\u8DEF\u7531\u5730\u5740
           predicates:
             - Path=/payment/lb/**
+            - After=2020-08-11T20:22:58.816+08:00[Australia/Perth]  # \u6307\u5B9A\u65F6\u95F4\u540E\u89E6\u53D1\uFF0C\u76F8\u4F3C\u7684\u8FD8\u6709Before\u548CBetween
+#            - Cookie=username, zzyy
+#            - Header=X-Request-Id, \d+  #\u8BF7\u6C42\u5934\u8981\u6709\u8BE5\u5C5E\u6027\u5E76\u4E14\u503C\u4E3A\u6574\u6570\u7684\u6B63\u5219\u8868\u8FBE\u5F0F
+#            - Method=GET
 
 eureka:
   instance:

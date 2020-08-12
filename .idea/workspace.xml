@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b6feb18-bf7a-42a8-b482-b510d39a6f7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/java/top/xiaotian/springcloud/ConfigCenter3344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/ConfigClientMain3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/top/xiaotian/springcloud/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/test/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/top/xiaotian/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/top/xiaotian/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +28,8 @@
     <ignored path="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order8002/target/" />
     <ignored path="$PROJECT_DIR$/cloud-gateway-gateway9527/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-center3344/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-client3355/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +81,7 @@
     <session id="-2083648418">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
@@ -79,78 +91,122 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="10" />
           <entry key="dummy" value="7" />
-          <entry key="java" value="4169" />
+          <entry key="java" value="4723" />
           <entry key="properties" value="1174" />
           <entry key="txt" value="6" />
-          <entry key="xml" value="1349" />
-          <entry key="yml" value="916" />
+          <entry key="xml" value="1430" />
+          <entry key="yml" value="1424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4169" />
+          <entry key="JAVA" value="4723" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="1174" />
           <entry key="Scratch" value="10" />
-          <entry key="XML" value="1349" />
-          <entry key="YAML" value="916" />
+          <entry key="XML" value="1430" />
+          <entry key="YAML" value="1424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="106" />
+          <entry key="java" value="122" />
           <entry key="payment" value="5" />
-          <entry key="properties" value="36" />
+          <entry key="properties" value="37" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="48" />
-          <entry key="yml" value="2" />
+          <entry key="xml" value="59" />
+          <entry key="yml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Database Element" value="5" />
-          <entry key="JAVA" value="106" />
-          <entry key="Properties" value="36" />
+          <entry key="JAVA" value="122" />
+          <entry key="Properties" value="37" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="48" />
-          <entry key="YAML" value="2" />
+          <entry key="XML" value="59" />
+          <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/top/xiaotian/springcloud/controller/PaymentController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="358">
+              <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-center3344/src/main/java/top/xiaotian/springcloud/ConfigCenter3344.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
-                <element signature="e#1421#1422#0" expanded="true" />
-                <element signature="e#1454#1455#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/top/xiaotian/springcloud/controller/PaymentController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/ConfigClientMain3355.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="19" />
               <folding>
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/controller/ConfigClientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-client3355/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -171,14 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/top/xiaotian/springcloud/entities/Payment.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/top/xiaotian/springcloud/entities/CommonResult.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/top/xiaotian/springcloud/dao/PaymentDao.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/payment.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/top/xiaotian/springcloud/service/IPaymentService.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order8002/src/main/java/top/xiaotian/springcloud/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/cloud-api-commons/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" />
@@ -192,7 +240,6 @@
         <option value="$PROJECT_DIR$/cloud-eureka-server8003/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-eureka-server8004/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-eureka-server8004/src/main/java/top/xiaotian/springcloud/EurekaMain8004.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-consumer-order8002/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8005/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/top/xiaotian/springcloud/PaymentMain8005.java" />
@@ -219,8 +266,18 @@
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/top/xiaotian/springcloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/top/xiaotian/springcloud/config/GateWayConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/top/xiaotian/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/top/xiaotian/springcloud/filter/MyLogGateWayFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-config-center3344/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-config-center3344/src/main/java/top/xiaotian/springcloud/ConfigCenter3344.java" />
+        <option value="$PROJECT_DIR$/cloud-config-client3355/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/ConfigClientMain3355.java" />
+        <option value="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/controller/ConfigClientController.java" />
       </list>
     </option>
   </component>
@@ -255,11 +312,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-gateway-gateway9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-config-center-3344" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-gateway-gateway9527" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-config-center-3344" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -270,8 +327,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="107" />
+    <option name="y" value="-28" />
     <option name="width" value="1745" />
     <option name="height" value="970" />
   </component>
@@ -283,8 +340,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -296,70 +351,25 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client3355" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client3355" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8005" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8005" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8005" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client3355" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8005" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client3355" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -367,7 +377,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8005" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client3355" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -376,7 +386,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8005" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client3355" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -386,7 +396,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8005" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client3355" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -395,6 +405,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,7 +417,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597148067779" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597195676656" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -445,7 +457,40 @@
     </option>
     <option name="contentProportion" value="0.21448088" />
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain8005">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="cloud-gateway-gateway9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCenter3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-center3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.xiaotian.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.xiaotian.springcloud.ConfigCenter3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.xiaotian.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.xiaotian.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaMain8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server8003" />
       <extension name="coverage">
@@ -486,14 +531,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-order8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.xiaotian.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.xiaotian.springcloud.OrderMain8002" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -516,14 +555,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMain8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.xiaotian.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.xiaotian.springcloud.PaymentMain8005" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -533,18 +566,22 @@
       <item itemvalue="Spring Boot.PaymentMain8001" />
       <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       <item itemvalue="Spring Boot.OrderHystrixMain8002" />
-      <item itemvalue="Spring Boot.OrderMain8002" />
-      <item itemvalue="Spring Boot.EurekaMain8003" />
-      <item itemvalue="Spring Boot.EurekaMain8004" />
-      <item itemvalue="Spring Boot.PaymentMain8005" />
       <item itemvalue="Spring Boot.Gateway9527" />
+      <item itemvalue="Spring Boot.OrderMain8002" />
+      <item itemvalue="Spring Boot.PaymentMain8005" />
+      <item itemvalue="Spring Boot.EurekaMain8003" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Spring Boot.EurekaMain8004" />
+      <item itemvalue="Spring Boot.ConfigCenter3344" />
+      <item itemvalue="Spring Boot.ConfigClientMain3355" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PaymentMain8005" />
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
+        <item itemvalue="Spring Boot.ConfigCenter3344" />
         <item itemvalue="Spring Boot.EurekaMain8004" />
         <item itemvalue="Spring Boot.EurekaMain8003" />
-        <item itemvalue="Spring Boot.OrderMain8002" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -568,12 +605,13 @@
       <workItem from="1597101840300" duration="208000" />
       <workItem from="1597102150738" duration="15945000" />
       <workItem from="1597125541257" duration="10437000" />
-      <workItem from="1597137026074" duration="4550000" />
+      <workItem from="1597137026074" duration="8808000" />
+      <workItem from="1597153266255" duration="11282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53276000" />
+    <option name="totallyTimeSpent" value="68816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,9 +624,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24530831" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26541555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -598,7 +635,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33821377" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3739003" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,7 +650,7 @@
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32844576" />
       <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="16" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.3079179" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.40029326" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -634,48 +671,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order8002/src/main/java/top/xiaotian/springcloud/entities/Payment.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/top/xiaotian/springcloud/entities/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/top/xiaotian/springcloud/entities/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://199d58ab-fa0c-4022-8cbf-61122d742db4/schema/db2019/table/payment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="32" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/a.yml" />
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server8003/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -762,13 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -905,27 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/top/xiaotian/springcloud/config/GateWayConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -940,20 +907,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/top/xiaotian/springcloud/controller/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="109">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/top/xiaotian/springcloud/filter/MyLogGateWayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="21" selection-start-line="25" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="19" selection-start-line="13" selection-start-column="3" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="23" column="106" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center3344/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center3344/src/main/java/top/xiaotian/springcloud/ConfigCenter3344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/ConfigClientMain3355.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client3355/src/main/java/top/xiaotian/springcloud/controller/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
           </folding>
         </state>
       </provider>
